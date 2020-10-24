@@ -1,0 +1,45 @@
+.infoBox{
+  height: 120px;
+  width: 180px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.infoBox:not(:last-child){
+  margin-right: 200px;
+}
+.infoBox--Selected{
+  border-top: 10px solid greenyellow;
+  height: 120px;
+  width: 180px;
+  margin-top: 10px;
+  margin-right: 20px;
+
+}
+.infoBox--Cases{
+  border-top: 10px solid #CC1034;
+  /* height: 120px;
+  width: 180px;
+  margin-top: 10px;
+  margin-right: 20px; */
+}
+.infoBox--Recovered{
+  border-top: 10px solid #7dd71d;
+
+}
+.infoBox--Deaths{
+  border-top:  10px solid #827f7a;
+}
+.infoBox_cases{
+ 
+  color: red;
+  margin-bottom: 05px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.infoBox_total b{
+  font-size: 15px;
+}
+/* .infoBox_title{
+  
+} */
